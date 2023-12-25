@@ -13,7 +13,7 @@ config.addTransport(
 )
 
 # 配置SNMPv2c社区名称
-community_name = 'ceni@2023'
+community_name = '*****'
 config.addV1System(snmpEngine, 'my-area', community_name)
 
 # 定义处理函数

@@ -39,12 +39,12 @@ hex_to_utf8_oids = [
     # ... 其他需要转换的OID
 ]
 # 邮件发送设置
-sender_email = 'obitoma@qq.com'
-receiver_email = 'obitoma@qq.com'
+sender_email = '***@qq.com'
+receiver_email = '***@qq.com'
 smtp_server = 'smtp.qq.com'
 smtp_port = 465  # 使用SMTP SSL端口
-smtp_username = 'obitoma@qq.com'
-smtp_password = 'mhsvruyivckcihfh'
+smtp_username = '***@qq.com'
+smtp_password = '***********'
 
 # 定义邮件发送函数
 def send_email(subject, body):
@@ -93,7 +93,7 @@ config.addTransport(
 )
 
 # 配置SNMPv2c社区名称
-community_name = 'ceni@2023'
+community_name = '*****'
 config.addV1System(snmpEngine, 'my-area', community_name)
 
 # 定义处理函数

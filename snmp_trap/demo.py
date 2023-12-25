@@ -21,7 +21,7 @@ def snmp_listener():
         for oid in oids:
             errorIndication, errorStatus, errorIndex, varBinds = next(
                 getCmd(SnmpEngine(),
-                       CommunityData('ceni@2023'),
+                       CommunityData('*****'),
                        UdpTransportTarget(('0.0.0.0', 162)),
                        ContextData(),
                        ObjectType(ObjectIdentity(oid)))
